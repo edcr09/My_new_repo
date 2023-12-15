@@ -28,12 +28,12 @@ vehicles_us.describe(include=[object])
 
 # Histograma con plotly_express
 hist_odom = px.histogram(vehicles_us, x="odometer") # crear un histograma
-hist_odom.show() # crear gráfico de dispersión 
+# hist_odom.show() 
 
 
 # Grafico de dispersion
 fig = px.scatter(vehicles_us, x="odometer", y="price") # crear un gráfico de dispersión
-fig.show() 
+# fig.show() 
 
 # Utilizando streamlit para generar checkbox
 
