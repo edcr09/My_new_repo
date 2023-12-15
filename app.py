@@ -6,7 +6,7 @@ st.header('Gráficos de venta de vehiculos 2018 - 2019')
 
 # Leer conjuntos de datos en los DataFrames
 
-vehicles_us = pd.read_csv('C:/Users/Dell/Python_projects/Sprint_4/vehicles_us.csv' )
+vehicles_us = pd.read_csv('vehicles_us.csv' )
 
 # Mostrar información del DataFrame
 
